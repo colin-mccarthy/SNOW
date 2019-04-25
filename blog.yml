@@ -12,9 +12,9 @@
     snow_record:
       state: present
       table: change_request
-      username: "{{ SN_USERNAME }}"
-      password: "{{ SN_PASSWORD }}"
-      instance: "{{ SN_INSTANCE }}"
+      username: admin
+      password: my_password
+      instance: dev99999
       data:
         priority: "{{ priority}}"
         short_description: "This is a test opened by Ansible"
